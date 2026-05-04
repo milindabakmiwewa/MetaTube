@@ -73,3 +73,8 @@ docker-compose up --build
 ```
 
 Open `http://localhost` once the build completes.
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) v18+
+- A [YouTube Data API v3](https://console.cloud.google.com/) key stored in `.env` as `REACT_APP_YOUTUBE_API_KEY`
